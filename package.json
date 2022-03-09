@@ -1,7 +1,7 @@
 {
-  "name": "annotation-exception-handler",
+  "name": "annotation-exception-handlers",
   "version": "1.0.0",
-  "description": "annotation-exception-handler",
+  "description": "annotation-exception-handlers",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   "author": "saeed mohammed alabidi /saeed1adm@gmail.com",
   "license": "ISC",
   "keywords": [
-    "annotation-exception-handler"
+    "annotation-exception-handlers"
   ],
   "repository": {
     "type":"git",

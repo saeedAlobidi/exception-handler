@@ -2,7 +2,7 @@
 
 # typescript library
 
-annotation-exception-handler is a library that allows you to write a try and catch using Try and catch that makes the code ugly? just used annotation   like this   @validate("name your function").
+annotation-exception-handlers is a library that allows you to write a try and catch using Try and catch that makes the code ugly? just used annotation   like this   @validate("name your function").
 
 
 
@@ -17,7 +17,7 @@ annotation-exception-handler is a library that allows you to write a try and cat
 
 ```NPM
 
-npm i annotation-exception-handler
+npm i annotation-exception-handlers
 
 ```
 
@@ -25,7 +25,7 @@ npm i annotation-exception-handler
 
 #### Demo
 ```Example
- import validate from "annotation-exception-handler/validate";
+ import validate from "annotation-exception-handlers/validate";
 
  class test {
     constructor() {}
