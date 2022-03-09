@@ -13,6 +13,10 @@
   "keywords": [
     "CatchError"
   ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/saeedAlobidi/exception-handler"
+  },
   "devDependencies": {
     "@types/node": "^16.11.8",
     "babel-plugin-transform-typescript-metadata": "^0.3.2",
