@@ -54,7 +54,7 @@ npm i
 
 ```
 
-# Why YoYo?
+ 
 
  
 # About me
