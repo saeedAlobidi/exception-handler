@@ -1,26 +1,32 @@
 
 
-# Android View Animations [![Build Status](https://travis-ci.org/daimajia/AndroidViewAnimations.svg)](https://travis-ci.org/daimajia/AndroidViewAnimations)
+# typescript library
 
-  This is a library that allows you to write a function without using Try and cach that makes the code ugly?.
+annotation-exception-handler is a library that allows you to write a try and catch using Try and catch that makes the code ugly? just used annotation   like this   @validate("name your function").
 
-# Demo
+
+
+
+
+
+ 
  
 
-# Usage
+# NPM
 
 
 ```NPM
 
-npm i 
+npm i annotation-exception-handler
 
 ```
 
 
 
-#### Example
+#### Demo
 ```Example
- 
+ import validate from "annotation-exception-handler/validate";
+
  class test {
     constructor() {}
 
