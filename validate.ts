@@ -1,6 +1,4 @@
-
-
-export default function validate(errorHandler) {
+  function validate(errorHandler) {
 
     return function inti(target: any, propertyName: string, descriptor: TypedPropertyDescriptor<Function>) {
 
@@ -27,3 +25,6 @@ export default function validate(errorHandler) {
 
     }
 }
+
+
+export default  validate
