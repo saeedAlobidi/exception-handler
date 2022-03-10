@@ -7,8 +7,7 @@
         let exceptionHandler = function (arg) {
             try {
                 
-                return method.call(this, arg);
-
+                return method.call(this,...Array.prototype.slice.call(arg))
             } catch (error) {
                 this.error("method name:" + errorHandler + ", error message" + error);
 
@@ -18,7 +17,7 @@
 
         descriptor.value = function () {
             this.error =(message)=>   console.log(message)
-            return exceptionHandler.apply(this, arguments);
+            return exceptionHandler.call(this, arguments);
         };
 
 
