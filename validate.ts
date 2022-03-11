@@ -16,6 +16,7 @@
 
 
         descriptor.value = function () {
+            if( this.error==undefined)
             this.error =(message)=>   console.log(message)
             return exceptionHandler.call(this, arguments);
         };
